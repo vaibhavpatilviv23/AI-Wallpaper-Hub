@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Wallpaper Hub | Download AI Generated wallpapers for free</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Assets/Images/Logo/AI Wallpaper Hub Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar p-3 bg-amber-950 text-yellow-400">
+        <div class="flex items-center justify-between">
+            <!--Logo-->
+            <a href="index.html" class="italic text-2xl font-bold font-mono">AI Wallpaper Hub</a>
+
+            <!--Other Links-->
+            <div class="hidden md:flex space-x-3 font-bold font-mono text-xl">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Categories</a>
+            </div>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold text-lg bg-amber-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="categories.html">Categories</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Script for navbar hamburger-->
+    <script src="script.js"></script>
+</body>
+
+</html>
